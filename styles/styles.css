@@ -1,0 +1,292 @@
+body {
+    font-family: lato, Arial, Helvetica, sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.logo-img:hover{
+    border: 1px solid #15a4fa;
+}
+
+.btn:hover{
+    background-color: #2d3950;
+}
+
+.btn-send:hover{
+   background-color: #2d3950;
+}
+
+.icons-menu h3:hover{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.portfolio-img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.portfolio-img {
+    overflow:hidden;
+    width: 360px;
+    height:260px;
+}
+
+.header-top {
+
+    max-width: 1170px;
+    margin: auto;
+    padding: 30px;
+    background-color: #f6f9f9;
+}
+
+.header-top a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2d3950;
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-size: 100%;
+}
+
+.banner-content {
+    max-width: 615px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-content h1 {
+    padding: 180px 5px 15px 5px;
+    border-bottom: 2px solid #15a4fa;
+    font-size: 120px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner-content p {
+    padding: 40px 0 30px 0;
+    color: #ffffff;
+}
+
+.btn-call-to-action {
+    padding: 20px 35px;
+}
+
+.btn-border {
+    /*width: 108px; /*-- когда задаю, переносится текст на вторую строчку*/
+
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 47px;
+}
+
+.icon-down {
+    margin: 60px;
+    padding-bottom: 30px;
+}
+
+.simple-pure-design {
+    padding: 80px 30px;
+    margin: auto;
+    background-color: #f6f9f9;
+}
+
+.h2-like {
+    color: #2d3950;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.p-like-20 {
+    padding: 30px;
+    color: #999999;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.p-like-15 {
+    padding: 30px;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.icons {
+    margin: auto;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    /*margin: 0 auto;*/
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+}
+
+.images {
+    position: absolute;
+    padding: 25px;
+}
+
+.devices {
+    position: absolute;
+    padding: 25px 35px;
+}
+
+.h3-like {
+    padding: 25px 0;
+    width: 249px;
+    height: 20px;
+    color: #2d3950;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icons-menu {
+    padding: 30px 80px;
+}
+
+.feature {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.icons-menu .images {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-section {
+    padding: 80px 30px;
+    margin: auto;
+    background-color: #f6f9f9;
+}
+
+.portfolio-section a{
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    padding-bottom: 115px;
+    padding-top: 80px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.portfolio-img {
+    position: relative;
+    margin: 15px;
+}
+
+.stay-container{
+    background: #2d3950 url('../images/street.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #2d3950;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.bottom-head h2{
+    padding-top: 70px;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.bottom-head p {
+    z-index: 1;
+}
+
+.bottom-head {
+    margin: auto;
+    max-width: 550px;
+    padding:0 5px 80px;
+    z-index: 1;
+}
+
+.input-text {
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 2px;
+}
+
+.checkbox {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.btn-send {
+    float: right;
+    padding: 16px 50px;
+}
+
+.under-the-side p{
+    padding-top:38px;
+    padding-bottom: 38px;
+    float: left;
+}
+
+.social-icons {
+    padding-top: 25px;
+    float: right;
+    display: flex;
+    justify-content: right;
+}
+
+.social-icons li{
+    margin-right: 5px;
+}
+
+.small-icons {
+    margin: auto;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #15a4fa;
+}
+
+.small-images {
+    position: absolute;
+    padding: 10px 13px;
+}
